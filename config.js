@@ -8,6 +8,7 @@ global.owner = [
   ['528442114446'], 
   ['50763596565'], 
   ['50671103203'],
+  ['5219992095479'],
   ['529996125657', 'Bot Tiburón🦈', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here

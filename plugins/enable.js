@@ -155,6 +155,24 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isSmods, isA
       }
       global.opts['gconly'] = isEnable
       break
+      case 'antitraba':
+    case 'antitraba':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['antitraba'] = isEnable
+      break
+      case 'antifakes':
+    case 'antifakes':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['antifakes'] = isEnable
+      break
     case 'swonly':
     case 'statusonly':
       isAll = true

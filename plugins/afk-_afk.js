@@ -3,7 +3,7 @@ import db from '../lib/database.js'
 export function before(m) {
     let user = db.data.users[m.sender]
     if (user.afk > -1) {
-        m.reply(`MeduS.A-bot® | 🕐 *「 AFK v2 」*\n\n Dejaste de estar AFK! ${user.afkReason ? 'El Motivo era: ' + user.afkReason : ''}
+        m.reply(`Bot Tiburón🦈 | 🕐 *「 AFK v2 」*\n\n Dejaste de estar AFK! ${user.afkReason ? 'El Motivo era: ' + user.afkReason : ''}
   *Tiempo* ${(new Date - user.afk).toTimeString()}
   `.trim())
         user.afk = -1
@@ -19,7 +19,7 @@ export function before(m) {
             continue
         let reason = user.afkReason || ''
         m.reply(`
-MeduS.A-bot® | 🕐 *「 AFK v2 」*
+Bot Tiburón🦈 | 🕐 *「 AFK v2 」*
 		
 El usuario que intentaste tagear actualmente está ausente / ocupado
 

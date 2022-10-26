@@ -8,6 +8,6 @@
 <a href="https://github.com/Antonio32114"><img src="https://github.com/Antonio32114.png" width="100" height="100" alt="Antonio32114"/></a>
 <a href="https://github.com/Skidy89"><img src="https://github.com/Skidy89.png" width="100" height="100" alt="Skidy89"/></a>
 <a href="https://github.com/darlyn1234"><img src="https://github.com/darlyn1234.png" width="100" height="100" alt="darlyn1234"/></a>
-## `EDITOR Y PORPIETARIO DEL BOT` 
+## `EDITOR Y PROPIETARIO DEL BOT` 
 
 <a href="https://github.com/TheKillerMax"><img src="https://github.com/TheKillerMax.png" width="250" height="250" alt="TheKillerMax"/></a>

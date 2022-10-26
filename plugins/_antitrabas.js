@@ -3,13 +3,14 @@
 //
 
 import * as fs from 'fs'
+import db from '../lib/database.js'
 
 export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
   if (m.isBaileys && m.fromMe)
        return !0
   if (!m.isGroup) return !1
-  let chat = global.db.data.chats[m.chat]
-  let bot = global.db.data.settings[this.user.jid] || {}
+  let chat = db.data.chats[m.chat]
+  let bot = db.data.settings[this.user.jid] || {}
   let delet = m.key.participant
   let bang = m.key.id
   let name = await conn.getName(m.sender)

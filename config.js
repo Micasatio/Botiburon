@@ -3,14 +3,14 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5493546431180'],
-  ['00000'],
+  ['56937358804'],
+  ['573183650526'],
   ['5493546431180', 'Bot Tiburón🦈', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.smods = []
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.mods = [] // moderado?
+global.prems = [] // usuario premium sin límites 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -34,7 +34,7 @@ global.APIKeys = { // APIKey Here
 global.packname = 'Bot Tiburón🦈'
 global.author = 'Bot Tiburón🦈'
 
-global.multiplier = 100 // The higher, The harder levelup
+global.multiplier = 100 // más alto nivel, más difícil subir del nivel
 
 global.rpg = {
   emoticon(string) {

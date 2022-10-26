@@ -35,6 +35,8 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
+//Thumb
+global.thumb = fs.readFileSync('./media/thumb.jpg')
 
 // Sticker WM
 global.packname = 'Bot Tiburón🦈'

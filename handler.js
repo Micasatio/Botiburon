@@ -326,7 +326,7 @@ export async function handler(chatUpdate) {
             } else db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: false,
-                antiCall: true
+                antiCall: true,
                 restrict: false
             }
         } catch (e) {

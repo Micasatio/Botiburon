@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['5493546431180'],
   ['00000'],
-  ['5493546431180', 'Arris187', true]
+  ['5493546431180', 'Bot Tiburón🦈', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.smods = []
@@ -31,8 +31,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'GA DOMINA'
-global.author = 'MeduS.A-BOT v21.b'
+global.packname = 'Bot Tiburón🦈'
+global.author = 'Bot Tiburón🦈'
 
 global.multiplier = 100 // The higher, The harder levelup
 

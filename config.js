@@ -38,6 +38,7 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.packname = 'Bot Tiburón🦈'
 global.author = 'Bot Tiburón🦈'
+global.wm = 'Bot Tiburón🦈'
 
 global.multiplier = 100 // más alto nivel, más difícil subir del nivel
 

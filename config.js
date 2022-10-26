@@ -16,7 +16,7 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.smods = []
-global.mods = [] // moderado?
+global.mods = ['595983186566'] // moderado?
 global.prems = [] // usuario premium sin límites 
 global.APIs = { // API Prefix
   // name: 'https://website'

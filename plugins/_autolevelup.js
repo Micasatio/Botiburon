@@ -11,7 +11,7 @@ export function before(m) {
 
     if (before !== user.level) {
         m.reply(`
-⤴ MeduS.A-bot® | ⚠️ *「 LEVEL-UP v2 」*
+⤴ Bot Tiburón🦈 | ⚠️ *「 LEVEL-UP v2 」*
 
 Felicitaciones, has subido de nivel!
 *${before}* ↣ *${user.level}*

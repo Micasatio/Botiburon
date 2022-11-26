@@ -527,7 +527,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `💰 *Bot Tiburón🦈*\n\nSe han acabado tus Coins!\n Para obtener más Coins utiliza *${usedPrefix}buy 10  y cambia tu XP por Coins!*`, m)
+                    this.reply(m.chat, `💰 *Black_Bot*\n\nSe han acabado tus Coins!\n Para obtener más Coins utiliza *${usedPrefix}buy 10  y cambia tu XP por Coins!*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -673,8 +673,8 @@ export async function participantsUpdate({ id, participants, action }) {
                         pp = await this.profilePictureUrl(user, 'image')
                     } catch (e) {
                     } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || Connection.conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
-                            (chat.sBye || this.bye || Connection.conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || Connection.conn.welcome || 'Bienvenido @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
+                            (chat.sBye || this.bye || Connection.conn.bye || 'Se fue la puta de @user!')).replace('@user', '@' + user.split('@')[0])
                         this.sendFile(id, pp, 'pp.jpg', text, null, false, { mentions: [user] })
                     }
                 }
@@ -745,18 +745,18 @@ Detectado @${participant.split`@`[0]} Elimino un mensaje.
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Bot Tiburón🦈 | *「 ERROR 」*\n\n _ESTE COMANDO ES SOLO PARA USO DEL CREADOR!!_!',
-        owner: 'Bot TiburónBot Tiburón🦈🦈 | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por el _*Creador*_!',
-		smods: 'Bot Tiburón🦈 | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por un _*Moderador*_!',
-        mods: 'Bot Tiburón🦈 V21 | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por un _*Moderador*_!',
-        premium: 'Bot Tiburón🦈 V21 | *「 👑 PREMIUM 」*\n\nEste comando solo puede ser utilizado por miembros _*Premium*_',
-        banned: 'Bot Tiburón🦈 | *「 ⚠️ ERROR 」*\n\nEste comando es solo para usuarios BANEADOS.',
+        rowner: 'Black_Bot | *「 ERROR 」*\n\n _ESTE COMANDO ES SOLO PARA USO DEL CREADOR!!_!',
+        owner: 'Black_Bot BotBlack | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por el _*Creador*_!',
+		smods: 'BlackBot | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por un _*Moderador*_!',
+        mods: 'BlackBot V21 | *「 ERROR 」*\n\nEste comando solo puede ser utilizado por un _*Moderador*_!',
+        premium: 'BlackBot V21 | *「 👑 PREMIUM 」*\n\nEste comando solo puede ser utilizado por miembros _*Premium*_',
+        banned: 'BlackBot | *「 ⚠️ ERROR 」*\n\nEste comando es solo para usuarios BANEADOS.',
 		group: 'MeduS.A-bot| *⛔\n\nESTE BOT ES SOLO PARA GRUPOS!!*',
-        private: 'Bot Tiburón🦈 V21 | ERROR SOLO PARA PRIVADO',
+        private: 'BlackBot V21 | ERROR SOLO PARA PRIVADO',
         admin: 'MeduS.A-bot | *⛔COMANDO PARA ADMIN*\n\nEste comando solo puede ser utilizado por *Admins* del grupo!',
-        botAdmin: 'Bot Tiburón🦈 | *「 ⚠️ ERROR 」*\n\n_EL BOT *DEBE* SER ADMIN para activar todos los comandos!!',
-        unreg: 'Bot Tiburón🦈 | *「 ⚠️ Rᴇɢɪsᴛʀᴏ 」*\n\nPara usar el bot debes registrarte primero\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg TheKillerMax.13',
-        restrict: 'Bot Tiburón🦈 | *「 ERROR 」*\n\nESTE COMANDO ESTA  *deshabilitado*!'
+        botAdmin: 'BlackBot | *「 ⚠️ ERROR 」*\n\n_EL BOT *DEBE* SER ADMIN para activar todos los comandos!!',
+        unreg: 'BlackBot | *「 ⚠️ Rᴇɢɪsᴛʀᴏ 」*\n\nPara usar el bot debes registrarte primero\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg TheKillerMax.13',
+        restrict: 'BlackBot | *「 ERROR 」*\n\nESTE COMANDO ESTA  *deshabilitado*!'
     }[type]
     if (msg) return m.reply(msg)
 }

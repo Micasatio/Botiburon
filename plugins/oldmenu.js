@@ -30,7 +30,7 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭──ꕥ %me ꕥ──
-│✾ Version: MeduSA v20
+│✾ *Black_Bot*
 │
 │✾ Leaf (dinero) restante *%limit Leaf*
 │✾ Tu clase social es : %role

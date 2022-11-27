@@ -15,7 +15,7 @@ handler.before = function (m) {
           : ((user.limit >= 4600) && (user.limit <= 15000)) ? 'Clase superior 🎖️💶'
 		  : ((user.limit >= 15000) && (user.limit <= 50000)) ? 'Familia real 👑💶'
 		  : ((user.limit >= 50000) && (user.limit <= 90000)) ? 'Admin de GA'
-          : 'Bot Tiburón🦈'
+          : 'Black_Bot😈'
   user.role = role
   return true
 }

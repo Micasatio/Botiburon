@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, isOwner }) => {
     if (!code) throw 'LINK INVALIDO!'
     let res = await conn.groupAcceptInvite(code)
     expired = Math.floor(Math.min(999, Math.max(1, isOwner ? isNumber(expired) ? parseInt(expired) : 0 : 3)))
-    m.reply(`MeduS.A-bot® |  *「 JOIN v2 」*\n\nEL BOT SE UNIO AL GRUPO! ${res}${expired ? ` Por ${expired} DIAS` : ''}`)
+    m.reply(`Black_Bot® |  *「 JOIN v2 」*\n\nEL BOT SE UNIO AL GRUPO! ${res}${expired ? ` Por ${expired} DIAS` : ''}`)
     let chats = db.data.chats[res]
     if (!chats) chats = db.data.chats[res] = {}
     if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24

@@ -9,7 +9,7 @@ export async function all(m) {
         if (m.messageTimestamp.toNumber() - this.spam[m.sender].lastspam > 10) {
             if (this.spam[m.sender].count > 10) {
                 //db.data.users[m.sender].banned = true
-                m.reply('MeduS.A-bot® | ⚠️ *「 ANTI-SPAM v1 」*\n\nPARA CON EL SPAM')
+                m.reply('Black_Bot® | ⚠️ *「 ANTI-SPAM v1 」*\n\nPARA CON EL SPAM PUTA MIERDA')
             }
             this.spam[m.sender].count = 0
             this.spam[m.sender].lastspam = m.messageTimestamp.toNumber()

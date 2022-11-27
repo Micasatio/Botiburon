@@ -14,7 +14,7 @@ Por favor, curate primero, asi: *${usedPrefix}comprar pocion <cantidad>*,
 y escribe *${usedPrefix}curar <cantidad>* Para usar las pociones!
 `.trim())
 		let leaf = user.limit
-			if (leaf < 400) throw `*MeduS.A-bot®* | ⚠️ 「 MINA 」 \n\n Solo De clase media en adelante puede entrar a la mina!! Minimo 400 Leaf en tu cuenta debes tener para minar! (no te descontaremos nada)`
+			if (leaf < 400) throw `*Black®* | ⚠️ 「 MINA 」 \n\n Solo De clase media en adelante puede entrar a la mina!! Minimo 400 Leaf en tu cuenta debes tener para minar! (no te descontaremos nada)`
  
             let armor = user.armor
             let zorro = user.fox
@@ -46,9 +46,9 @@ y escribe *${usedPrefix}curar <cantidad>* Para usar las pociones!
             let iron = `${Math.floor(Math.random() * 20)}`.trim()
             let exp = `${Math.floor(Math.random() * 20)}`.trim() 
             //let uang = `${Math.floor(Math.random() * 3)}`.trim() 
-            //conn.reply(m.chat, '*MeduS.A-bot®* | ⚠️ *「 COMANDO BETA 」* \n\n ↓Minado:', m)
+            //conn.reply(m.chat, '*Black-bot®* | ⚠️ *「 COMANDO BETA 」* \n\n ↓Minado:', m)
             let str = `
-*MeduS.A-bot®* | *「 MINA 」* \n\nMientras minabas, encontraste:
+*Black®* | *「 MINA 」* \n\nMientras minabas, encontraste:
 🔮Piedra: ${batu}
 🔩Hierro: ${iron}
 🪵Madera: ${kayu}
